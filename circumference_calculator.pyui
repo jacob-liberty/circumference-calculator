@@ -1,0 +1,88 @@
+[
+  {
+    "selected" : false,
+    "frame" : "{{0, 0}, {540, 540}}",
+    "class" : "View",
+    "nodes" : [
+      {
+        "selected" : false,
+        "frame" : "{{6, 18}, {528, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_size" : 18,
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "A9426EC0-4898-4DFD-8E23-6A5890A5A231",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "enter below, a radius less than 1 000 000 that is an integer",
+          "name" : "guidelines_label",
+          "font_name" : "<System>"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{6, 58}, {200, 32}}",
+        "class" : "TextField",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_size" : 17,
+          "frame" : "{{170, 254}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "15A4D5BE-640E-4BEC-AB52-8DC98293DC04",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "name" : "radius_textbox",
+          "font_name" : "<System>"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{6, 98}, {200, 32}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "action" : "calculate_touch_up_inside",
+          "frame" : "{{230, 254}, {80, 32}}",
+          "title" : "Calculate Circumference ",
+          "class" : "Button",
+          "uuid" : "3B1FC42D-8B8E-4B4E-87F2-350DBDB78658",
+          "font_size" : 15,
+          "name" : "calculate_button"
+        }
+      },
+      {
+        "selected" : true,
+        "frame" : "{{6, 138}, {480, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_size" : 18,
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "2364C1FF-10CB-4EF9-91AE-2A0FB1EE38D8",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "name" : "circumference_label",
+          "font_name" : "<System>"
+        }
+      }
+    ],
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    }
+  }
+]
